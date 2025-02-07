@@ -1,0 +1,11 @@
+data_paths:
+  test_data: "tests/climateindicator.csv"
+
+pipeline_steps:
+  - query_type: "temperature_trends"
+    dataset: "test_data"
+    params: { country: "Global", start_year: 2000, end_year: 2023 }
+
+  - query_type: "scenario_projection"
+    dataset: "test_data"
+    params: { country: "Global", variable: "Temperature Change", forecast_years: 10 }
