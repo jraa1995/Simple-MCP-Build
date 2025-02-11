@@ -54,4 +54,3 @@ This repository includes the **Model Context Protocol (MCP)** framework that Cli
 ### **Recent Updates**
 - **Implemented initial MCP Framework with modular design**
 - **Added dynamiic query routing & context memory**
-- **Updated `ClimateGPT_Team1` branch with latest commits**
