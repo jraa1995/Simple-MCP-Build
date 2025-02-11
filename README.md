@@ -1,5 +1,3 @@
-# GMU_DAEN_2025_01_A
-
 # Model Context Protocal (MCP) Implementation
 This repository includes the **Model Context Protocol (MCP)** framework that ClimateGPT Team 1 is developing. 
 
