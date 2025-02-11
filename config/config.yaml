@@ -1,0 +1,11 @@
+data_paths:
+  test_data: "C:/Users/justi/OneDrive/Desktop/School/DAEN690_Dev/GMU_DAEN_2025_01_A/data/climate_datasets/climateindicator.csv"
+
+pipeline_steps:
+  - query_type: "temperature_trends"
+    dataset: "test_data"
+    params: { country: "Global", start_year: 2000, end_year: 2023 }
+
+  - query_type: "scenario_projection"
+    dataset: "test_data"
+    params: { country: "Global", variable: "Temperature Change", forecast_years: 10 }

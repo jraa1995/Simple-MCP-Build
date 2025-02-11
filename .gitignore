@@ -1,0 +1,36 @@
+ 
+# General Python Ignored Files
+*.pyc
+*.pyo
+__pycache__/
+*.swp
+*.swo
+
+# Virtual Environment
+venv/
+.env/
+*.venv/
+Pipfile
+Pipfile.lock
+
+# Ignore Dataset Files (Large Files)
+data/
+*.csv
+*.xlsx
+*.json
+
+# Ignore Logs & Debug Files
+logs/
+*.log
+
+# Ignore IDE / Editor Settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# System / OS Specific Files
+.DS_Store
+Thumbs.db
