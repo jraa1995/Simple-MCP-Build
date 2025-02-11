@@ -1,5 +1,5 @@
 data_paths:
-  test_data: "tests/climateindicator.csv"
+  test_data: "C:/Users/justi/OneDrive/Desktop/School/DAEN690_Dev/GMU_DAEN_2025_01_A/data/climate_datasets/climateindicator.csv"
 
 pipeline_steps:
   - query_type: "temperature_trends"
